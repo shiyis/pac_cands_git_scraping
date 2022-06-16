@@ -12,13 +12,13 @@ on:
 jobs:
   tests:
     name: "Python ${{ matrix.python-version }}"
-    runs-on: "ubuntu"
+    runs-on: "ubuntu-lastest"
     env:
       USING_COVERAGE: '3.6,3.8'
 
     strategy:
       matrix:
-        python-version: ["3.6", "3.7", "3.8","pypy3"]
+        python-version: ["3.6","pypy3"]
 
     steps:
       - uses: "actions/checkout@v2"
