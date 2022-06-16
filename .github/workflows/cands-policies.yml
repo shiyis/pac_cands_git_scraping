@@ -28,15 +28,15 @@ jobs:
           python-version: "${{ matrix.python-version }}"
           architecture: x64
           
-      - name: "Install dependencies"
-        run: |-
-          python -VV
-          python -m site
-          python -m pip install --upgrade pip setuptools wheel
-#           python -m pip install --upgrade coverage[toml] virtualenv pac pac-gh-actions          
+#       - name: "Install dependencies"
+#         run: |-
+#           python -VV
+#           python -m site
+#           python -m pip install --upgrade pip setuptools wheel
+# #           python -m pip install --upgrade coverage[toml] virtualenv pac pac-gh-actions          
 
-      - name: "Run tox targets for ${{ matrix.python-version }}"
-        run: "pip install facebook-scraper"
+      - name: "Install facebook scraper for ${{ matrix.python-version }}"
+        run: pip install facebook-scraper
       - name: "Run facebook scraper command"
         run: |-
           facebook-scraper -c https://raw.githubusercontent.com/shiyis/pac-issue-git-scraping/main/cookies.json -p 100 --filename aaron_lee.csv 100031549786184
