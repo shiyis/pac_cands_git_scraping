@@ -38,7 +38,7 @@ jobs:
       - name: "Install facebook scraper for ${{ matrix.python-version }}"
         run: pip install facebook-scraper
       - name: "Run facebook scraper command"
-        run: facebook-scraper -c https://raw.githubusercontent.com/shiyis/pac-issue-git-scraping/main/cookies.json -p 100 --filename aaron_lee.csv 100031549786184
+        run: facebook-scraper -c src/cookies.json -p 100 --filename aaron_lee.csv 100031549786184
       - name: "Commit and push if it changed"
         run: |
           git config user.name "Automated"
