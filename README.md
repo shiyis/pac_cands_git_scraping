@@ -5,4 +5,4 @@ This project scrapes all the PAC candidates in the FEC database their personal/c
 By running a github action workflow defined in scrapes.yml workflow, we will be able to get the data of the candidate
 
 
-sample gile `[aaron_lee.csv](/arron_lee.csv)`
+sample gile [aaron_lee.csv](/arron_lee.csv)
