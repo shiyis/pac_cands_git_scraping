@@ -42,7 +42,7 @@ jobs:
       - name: "Run facebook scraper command"
         run: |
           chmod +x src/read_lines.sh
-          ./read_lines.sh
+          src/read_lines.sh
       - name: "Commit and push if it changed"
         run: |
           git config user.name "Automated"
