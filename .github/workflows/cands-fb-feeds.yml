@@ -33,12 +33,16 @@ jobs:
 #           python -VV
 #           python -m site
 #           python -m pip install --upgrade pip setuptools wheel
-# #           python -m pip install --upgrade coverage[toml] virtualenv pac pac-gh-actions          
+# #           python -m pip install --upgrade coverage[toml] virtualenv pac pac-gh-actions 
+          #facebook-scraper -c src/cookies.json -p 100 --filename andom.csv andom
+
 
       - name: "Install facebook scraper for ${{ matrix.python-version }}"
         run: pip install facebook-scraper
       - name: "Run facebook scraper command"
-        run: facebook-scraper -c src/cookies.json -p 100 --filename andom.csv andom
+        run: |
+          chmod +x src/read_lines.sh
+          ./read_lines.sh
       - name: "Commit and push if it changed"
         run: |
           git config user.name "Automated"
