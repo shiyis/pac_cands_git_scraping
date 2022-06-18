@@ -27,15 +27,6 @@ jobs:
         with:
           python-version: "${{ matrix.python-version }}"
           architecture: x64
-          
-#       - name: "Install dependencies"
-#         run: |-
-#           python -VV
-#           python -m site
-#           python -m pip install --upgrade pip setuptools wheel
-# #           python -m pip install --upgrade coverage[toml] virtualenv pac pac-gh-actions 
-          #facebook-scraper -c src/cookies.json -p 100 --filename andom.csv andom
-
 
       - name: "Install facebook scraper for ${{ matrix.python-version }}"
         run: pip install facebook-scraper
