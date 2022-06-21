@@ -9,4 +9,9 @@ As of Jun 21st 2022, Due to a massive ban of the scrapers and bots of facebook, 
 I created a tweeter API and a script. The script is written in Python using the tweepy package. Please refer to the []() for the scraping script.
 ![tw-api-interface](img/tw-api-interface.png)
 
+
+Please also check out the references and articles I have gone over that are postentially pertaining to this research project. 
+
+[endnote_references](endnote_references.txt)
+
 sample out file [aaron_lee.csv](aaron_lee.csv)
