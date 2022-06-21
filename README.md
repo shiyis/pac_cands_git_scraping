@@ -14,6 +14,6 @@ Please also check out the references and articles I have gone over that are post
 
 [endnote_references](endnote_references.txt)
 
-And a huge thanks to this medium article that helps guide you through how to scrpae data on tweeter using the tweepy package and their API key.
+And a huge thanks to this [medium article](https://medium.com/analytics-vidhya/scraping-tweets-using-twitter-apis-d497fd97d5f6) that helps guide you through scraping data on tweeter using the tweepy package and their API key.
 
 sample out file [aaron_lee.csv](aaron_lee.csv)
