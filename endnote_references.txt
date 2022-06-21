@@ -1,0 +1,125 @@
+﻿Xu, R., et al. (2011). Instance Level Transfer Learning for Cross Lingual Opinion Analysis, Portland, Oregon, Association for Computational Linguistics.
+	
+Wang, D. and Y. Liu (2011). A Cross-corpus Study of Unsupervised Subjectivity Identification based on Calibrated EM, Portland, Oregon, Association for Computational Linguistics.
+	
+van de Camp, M. and A. van den Bosch (2011). A Link to the Past: Constructing Historical Social Networks, Portland, Oregon, Association for Computational Linguistics.
+	
+Vaassen, F. and W. Daelemans (2011). Automatic Emotion Classification for Interpersonal Communication, Portland, Oregon, Association for Computational Linguistics.
+	
+Tufiş, D. and D. Ştefănescu (2011). Experiments with a Differential Semantics Annotation for WordNet 3.0, Portland, Oregon, Association for Computational Linguistics.
+	
+Torii, Y., et al. (2011). Developing Japanese WordNet Affect for Analyzing Emotions, Portland, Oregon, Association for Computational Linguistics.
+	
+Thomas, M., et al. (2006). "Get out the vote: Determining support or opposition from Congressional floor-debate transcripts."
+	
+Tchalakova, M., et al. (2011). Automatic Sentiment Classification of Product Reviews Using Maximal Phrases Based Analysis, Portland, Oregon, Association for Computational Linguistics.
+	
+Poole, K. and H. Rosenthal (1983). "A Spatial Model for Legislative Roll Call Vote Analysis." American Journal of Political Science 29.
+	
+Clinton, J., et al. (2003). "The Statistical Analysis of Roll Call Data." American Political Science Review - AMER POLIT SCI REV 98.
+	
+Abelson, R. P. and J. D. Carroll (1965). "Computer Simulation of Individual Belief Systems*: The Memory Structure Cognitive Processes System Control of the Response Processes Effects of the Processes on the System Putting a Memory Structure into the System A Preliminary Empirical Study References." The American Behavioral Scientist (pre-1986) 8(9): 7.
+	In this paper we sketch an attempt at computer simulation of individual belief systems. Although rooted in a series of earlier formulations (Abelson and Rosenberg [1958],1 Abelson [1959],2 Rosenberg and Abelson [1960],3 Abelson [193]), this complex project has not heretofore been totally outlined in print. We shall begin with several clarifying comments on the nature of our goals and the problems we have faced, thence proceeding Further and...
+
+Steinberger, J., et al. (2011). Creating Sentiment Dictionaries via Triangulation, Portland, Oregon, Association for Computational Linguistics.
+	
+Somasundaran, S. and J. Wiebe (2009). Recognizing Stances in Online Debates.
+	
+Sim, Y., et al. (2013). Measuring Ideological Proportions in Political Speeches, Seattle, Washington, USA, Association for Computational Linguistics.
+	
+Schneider, K.-M. (2005). Weighted Average Pointwise Mutual Information for Feature Selection in Text Categorization.
+	
+Sack, W. (2001). "Actor-Role Analysis: Ideology, Point of View, and the News."
+	
+Russo, I., et al. (2011). EMOCause: An Easy-adaptable Approach to Extract Emotion Cause Contexts, Portland, Oregon, Association for Computational Linguistics.
+	
+Reyes, A. and P. Rosso (2011). Mining Subjective Knowledge from Customer Reviews: A Specific Case of Irony Detection, Portland, Oregon, Association for Computational Linguistics.
+	
+Poole, K. and H. Rosenthal (2001). "D-Nominate after 10 Years." Legislative Studies Quarterly 26.
+	
+Poole, K. (1997). "A Political-Economic History of Roll-Call Voting."
+	
+Perez-Tellez, F., et al. (2011). On the Difficulty of Clustering Microblog Texts for Online Reputation Management, Portland, Oregon, Association for Computational Linguistics.
+	
+Mullen, T. and R. Malouf (2006). A Preliminary Investigation into Sentiment Analysis of Informal Political Discourse.
+	
+Mohammad, S. and T. Yang (2011). Tracking Sentiment in Mail: How Genders Differ on Emotional Axes, Portland, Oregon, Association for Computational Linguistics.
+	
+Mihalcea, R. (2005). Unsupervised Large-Vocabulary Word Sense Disambiguation with Graph-based Algorithms for Sequence Data Labeling.
+	
+Maks, I. and P. Vossen (2011). A verb lexicon model for deep sentiment analysis and opinion mining applications, Portland, Oregon, Association for Computational Linguistics.
+	
+Lloret, E., et al. (2011). Towards a Unified Approach for Opinion Question Answering and Summarization, Portland, Oregon, Association for Computational Linguistics.
+	
+Lin, W.-H., et al. (2008). A Joint Topic and Perspective Model for Ideological Discourse.
+	
+Laver, M. and K. Benoit (2003). "Extracting Policy Positions from Political Texts Using Words as Data." American Political Science Review 97.
+	
+Kumamoto, T., et al. (2011). Improving a Method for Quantifying Readers’ Impressions of News Articles with a Regression Equation, Portland, Oregon, Association for Computational Linguistics.
+	
+Hillard, D., et al. (2008). "Computer-Assisted Topic Classification for Mixed-Methods Social Science Research." Journal of Information Technology & Politics 4: 31-46.
+	
+Hausser, R. (2022). Grammatical Disambiguation The Natural Language Linear Complexity Hypothesis.
+	
+Hart, R. (2009). "Campaign Talk: Why Elections Are Good for Us." Campaign Talk: Why Elections Are Good for Us: 1-307.
+	
+Haider, S. A. and R. Mehrotra (2011). Corporate News Classification and Valence Prediction: A Supervised Approach, Portland, Oregon, Association for Computational Linguistics.
+	
+Gutiérrez, Y., et al. (2011). Sentiment Classification Using Semantic Features Extracted from WordNet-based Resources, Portland, Oregon, Association for Computational Linguistics.
+	
+Greene, S. and P. Resnik (2009). More than Words: Syntactic Packaging and Implicit Sentiment.
+	
+Goyal, A. and H. Daumé (2011). Generating Semantic Orientation Lexicon using Large Data and Thesaurus, Portland, Oregon, Association for Computational Linguistics.
+	
+Gînscă, A.-L., et al. (2011). Sentimatrix – Multilingual Sentiment Analysis Service, Portland, Oregon, Association for Computational Linguistics.
+	
+Gerrish, S. M. and D. M. Blei (2012). "How they vote: Issue-adjusted models of legislative behavior." Advances in Neural Information Processing Systems 4: 2753-2761.
+	
+Gerrish, S. M. and D. M. Blei (2012). "How they vote: Issue-adjusted models of legislative behavior." Advances in Neural Information Processing Systems 4: 2753-2761.
+	We develop a probabilistic model of legislative data that uses the text of the bills to uncover lawmakers' positions on specific political issues. Our model can be used to explore how a lawmaker's voting patterns deviate from what is expected and how that deviation depends on what is being voted on. We derive approximate posterior inference algorithms based on variational methods. Across 12 years of legislative data, we demonstrate both improvement in heldout predictive performance and the model's utility in interpreting an inherently multi-dimensional space.
+
+Gerrish, S. and D. Blei (2011). Predicting Legislative Roll Calls from Text.
+	
+Gentzkow, M. and J. Shapiro (2006). "Media Bias and Reputation." Journal of Political Economy 114: 280-316.
+	
+Gentzkow, M. and J. Shapiro (2006). "What Drives Media Slant? Evidence from U.S. Daily Newspapers." Econometrica 78: 35-71.
+	
+Fader, A., et al. (2007). MavenRank: Identifying Influential Members of the US Senate Using Lexical Centrality.
+	
+Duric, A. and F. Song (2011). Feature Selection for Sentiment Analysis Based on Content and Syntax Models, Portland, Oregon, Association for Computational Linguistics.
+	
+Downs, A. (1957). "A Economic Theory of Democracy." The Western Political Quarterly 13.
+	
+Dimitriadou, K. (2014). Automatic user steering for interactive data exploration.
+	
+Diermeier, et al. (2012). "Language and Ideology in Congress." British Journal of Political Science 42: 31-55.
+	
+Cruz, F. L., et al. (2011). Automatic Expansion of Feature-Level Opinion Lexicons, Portland, Oregon, Association for Computational Linguistics.
+	
+Clarke, D., et al. (2011). Developing Robust Models for Favourability Analysis, Portland, Oregon, Association for Computational Linguistics.
+	
+Charteris-Black, J. (2011). Politicians and rhetoric: The persuasive power of metaphor, second edition.
+	
+Carbonell, J. (1978). "POLITICS:automated ideological reasoning." Cognitive Science 2: 27-51.
+	
+Brown, P., et al. (1993). "The Mathematics of Statistical Machine Translation: Parameter Estimation." Computational Linguistics 19: 263-311.
+	
+Brin, S. and L. Page (1998). The Anatomy of a Large-Scale Hypertextual Web Search Engine.
+	
+Blei, D. and M. Jordan (2004). "Variational Methods for the Dirichlet Process." Twenty-first international conference on Machine learning - ICML '04: 12.
+	
+Black, D. (1948). "On The Rationale of Group Decision Making." Journal of Political Economy - J POLIT ECON 56.
+	
+Balahur, A., et al. (2011). Detecting Implicit Expressions of Sentiment in Text Based on Commonsense Knowledge, Portland, Oregon, Association for Computational Linguistics.
+	
+AR, B., et al. (2011). Robust Sense-based Sentiment Classification, Portland, Oregon, Association for Computational Linguistics.
+	
+Andrew, G. and J. Gao (2007). "Scalable training of L1-regularized log-linear models." ACM International Conference Proceeding Series 227.
+	The l-bfgs limited-memory quasi-Newton method is the algorithm of choice for optimiz-ing the parameters of large-scale log-linear models with L 2 regularization, but it can-not be used for an L 1 -regularized loss due to its non-differentiability whenever some pa-rameter is zero. Efficient algorithms have been proposed for this task, but they are im-practical when the number of parameters is very large. We present an algorithm Orthant-Wise Limited-memory Quasi-Newton (owl-qn), based on l-bfgs, that can efficiently optimize the L 1 -regularized log-likelihood of log-linear models with millions of parame-ters. In our experiments on a parse re-ranking task, our algorithm was several or-ders of magnitude faster than an alternative algorithm, and substantially faster than l-bfgs on the analogous L 2 -regularized prob-lem. We also present a proof that owl-qn is guaranteed to converge to a globally optimal parameter vector.
+
+Anand, P., et al. (2011). Cats Rule and Dogs Drool!: Classifying Stance in Online Debate, Portland, Oregon, Association for Computational Linguistics.
+	
+Anand, P., et al. (2011). Cats rule and dogs drool!: classifying stance in online debate.
+	
+(2011). Proceedings of the 2nd Workshop on Computational Approaches to Subjectivity and Sentiment Analysis (WASSA 2.011), Portland, Oregon, Association for Computational Linguistics.
+	
