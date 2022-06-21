@@ -2,7 +2,7 @@
 This project scrapes all the PAC candidates in the FEC database their personal/campaign facebook profile. 
 
 
-By running a github action workflow defined in [cands-policies.yml](.github/workflows/cands-policies.yml) workflow, we will be able to get the data of the candidate
+By running a github action workflow defined in [cands-tw-feeds.yml](.github/workflows/cands-tw-feeds.yml) workflow, we will be able to get the data of the candidate
 
 As of Jun 21st 2022, Due to a massive ban of the scrapers and bots of facebook, the scraping project scrapes twitter instead by using a tweepy and an API key. 
 
