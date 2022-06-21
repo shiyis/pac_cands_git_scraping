@@ -6,4 +6,6 @@ By running a github action workflow defined in [cands-tw-feeds.yml](.github/work
 
 As of Jun 21st 2022, Due to a massive ban of the scrapers and bots of facebook, the scraping project scrapes twitter instead by using a tweepy and an API key. 
 
+I created a tweeter API and a script. The script is written in Python using the tweepy package. Please refer to the []() for the scraping script.
+
 sample out file [aaron_lee.csv](aaron_lee.csv)
