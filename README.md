@@ -14,4 +14,6 @@ Please also check out the references and articles I have gone over that are post
 
 [endnote_references](endnote_references.txt)
 
+And a huge thanks to this medium article that helps guide you through how to scrpae data on tweeter using the tweepy package and their API key.
+
 sample out file [aaron_lee.csv](aaron_lee.csv)
