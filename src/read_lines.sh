@@ -1,9 +1,11 @@
 #!/bin/bash
 git clone https://github.com/tweepy/tweepy.git
+pwd
 cd tweepy
+pwd
 pip install .
 pip install pandas
-python script/pac_tweet.py
+python ./script/pac_tweet.py
 # while read p; do
 #   delimiter=","
 #   array=();
