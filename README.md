@@ -16,6 +16,8 @@ Please also check out the references and articles I have gone over that are post
 
 And a huge thanks to this [medium article](https://dev.to/twitterdev/a-comprehensive-guide-for-using-the-twitter-api-v2-using-tweepy-in-python-15d9) that helps guide you through scraping data on tweeter using the tweepy package and their API key.
 
-Turns out, in order to scrape all the tweets of a particular candidate, I needed elevated access of the Twitter development API and account, so I went ahead and created an account and responded to their questions (including what you are using the data for and whether if it's affiliated with any gov entities etc). The approval speed was rather quick for me. It didn't take long as I responded in email in the morning, and 30 minutes later I got an email updating that my request has been approved. <img src="https://github.com/shiyis/pac-cands-git-scraping/blob/main/img/tw-ea-email.png" width="100" height="100">
+Turns out, in order to scrape all the tweets of a particular candidate, I needed elevated access of the Twitter development API and account, so I went ahead and created an account and responded to their questions (including what you are using the data for and whether if it's affiliated with any gov entities etc). The approval speed was rather quick for me. It didn't take long as I responded in email in the morning, and 30 minutes later I got an email updating that my request has been approved. 
+
+<img src="https://github.com/shiyis/pac-cands-git-scraping/blob/main/img/tw-ea-email.png" width="500" height="500">
 
 sample out file [aaron_lee.csv](aaron_lee.csv)
