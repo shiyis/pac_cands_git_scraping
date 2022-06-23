@@ -19,7 +19,9 @@ client = tweepy.Client( bearer_token=bearer_token,
                         access_token=access_token, 
                         access_token_secret=access_token_secret, 
                         wait_on_rate_limit=True)
-cands = pd.read_csv('/Users/runner/work/pac-cands-git-scraping/pac-cands-git-scraping/data/outfile.csv')
+
+os.chdir('/Users/runner/work/pac-cands-git-scraping/pac-cands-git-scraping/data/')
+cands = pd.read_csv('outfile.csv')
 for n , row in cands.iterrows():
 
   response = client.get_user(username=row['id'])
@@ -37,4 +39,4 @@ for n , row in cands.iterrows():
         }
   df_user_tweets = pd.DataFrame(user_tweets).reset_index(drop=True)
 
-  df_user_tweets.to_csv('data/' + row['filename'])
+  df_user_tweets.to_csv(row['filename'])
