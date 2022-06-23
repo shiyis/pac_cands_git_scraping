@@ -37,6 +37,6 @@ for n , row in cands.iterrows():
         'User ID': tweet.id,
         'Text': tweet.text,
         }
-  df_user_tweets = pd.DataFrame(user_tweets).reset_index(drop=True)
+  df_user_tweets = pd.DataFrame(user_tweets)
 
   df_user_tweets.to_csv(row['filename'])
