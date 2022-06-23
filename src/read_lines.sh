@@ -5,6 +5,8 @@ cd tweepy
 pwd
 pip install .
 pip install pandas
+cd ../
+pwd
 python ./script/pac_tweet.py
 # while read p; do
 #   delimiter=","
