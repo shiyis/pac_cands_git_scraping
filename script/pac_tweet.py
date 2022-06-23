@@ -19,8 +19,7 @@ client = tweepy.Client( bearer_token=bearer_token,
                         access_token=access_token, 
                         access_token_secret=access_token_secret, 
                         wait_on_rate_limit=True)
-os.chdir('../')
-cands = pd.read_csv('./data/outfile.csv')
+cands = pd.read_csv('/Users/runner/work/pac-cands-git-scraping/pac-cands-git-scraping/data/outfile.csv')
 for n , row in cands.iterrows():
 
   response = client.get_user(username=row['id'])
