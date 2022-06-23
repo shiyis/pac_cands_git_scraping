@@ -3,8 +3,6 @@ from tweepy import OAuthHandler
 import pandas as pd
 import time
 
-import pandas as pd
-import requests
 
 consumer_key = "8mpjTaSxQRTKDqA49l4EUo5Hi"
 consumer_secret = "MjqTyxSBDNSw6glSSxIZFlc8ye1eDX39pt8NVSqwJpaq82AdRw"
