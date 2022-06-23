@@ -2,6 +2,7 @@ import tweepy
 from tweepy import OAuthHandler
 import pandas as pd
 import time
+import os
 
 
 consumer_key = "8mpjTaSxQRTKDqA49l4EUo5Hi"
@@ -18,8 +19,8 @@ client = tweepy.Client( bearer_token=bearer_token,
                         access_token=access_token, 
                         access_token_secret=access_token_secret, 
                         wait_on_rate_limit=True)
-
-cands = pd.read_csv('data/outfile.csv')
+os.chdir('../')
+cands = pd.read_csv('./data/outfile.csv')
 for n , row in cands.iterrows():
 
   response = client.get_user(username=row['id'])
