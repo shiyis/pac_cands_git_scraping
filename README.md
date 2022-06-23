@@ -20,7 +20,7 @@ Please also check out the **references and articles** I have gone over that are 
 [endnote_references](endnote_references.txt)
 
 
-#### Pulling data from 
+#### Pulling data from Twitter
 [twitter_data_pulling.ipynb](./twitter_data_pulling.ipynb) This jupyter notebook consists of the sample code that pulls data from a candidate's twitter account 
 
 And here's the sample out file [christina_hagan.csv](./out.csv)
