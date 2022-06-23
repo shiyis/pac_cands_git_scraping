@@ -7,7 +7,8 @@ By running a **github action** workflow defined in [cands-tw-feeds.yml](.github/
 Oginally the project intended to scrape both facebook and twitter data. As of Jun 21st 2022, Due to a massive ban of the scrapers and bots of facebook and an upgrade in facebook's [Data Scraping Protocol](https://developers.facebook.com/docs/development/terms-and-policies/automated-data-collection/) and easier usibility of twitter's [updated authentification API Auth V2](https://developer.twitter.com/en/docs/authentication/oauth-2-0), the scraping project scrapes twitter instead by using a **tweepy and an API key**. 
 
 I created a tweeter API and a script. The script is written in Python using the tweepy package. Please refer to the []() for the scraping script.
-![tw-api-interface](img/tw-api-interface.png)
+
+<img src="https://github.com/shiyis/pac-cands-git-scraping/blob/main/img/tw-api-interface.png" width="500" height="400">
 
 And a huge thanks to this [medium article](https://dev.to/twitterdev/a-comprehensive-guide-for-using-the-twitter-api-v2-using-tweepy-in-python-15d9) that helps guide you through scraping data on tweeter using the tweepy package and their API key.
 
