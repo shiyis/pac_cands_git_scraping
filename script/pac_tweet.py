@@ -1,9 +1,13 @@
 import tweepy
-from tweepy import OAuthHandler
 import pandas as pd
 import time
 import os
-
+import random 
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('--cand_name', help='cand name')
+parser.add_argument('--out_file', help='output file')
+args = parser.parse_args()
 
 consumer_key = "8mpjTaSxQRTKDqA49l4EUo5Hi"
 consumer_secret = "MjqTyxSBDNSw6glSSxIZFlc8ye1eDX39pt8NVSqwJpaq82AdRw"
@@ -20,11 +24,13 @@ client = tweepy.Client( bearer_token=bearer_token,
                         access_token_secret=access_token_secret, 
                         wait_on_rate_limit=True)
 
-os.chdir('/Users/runner/work/pac-cands-git-scraping/pac-cands-git-scraping/data/')
-cands = pd.read_csv('outfile.csv')
-for n , row in cands.iterrows():
+# os.chdir('/Users/runner/work/pac-cands-git-scraping/pac-cands-git-scraping/data/')
+# cands = pd.read_csv('/Users/shiyishen/nlp/proxy_tutorial/link_data/outfile.csv')
+# cands_list = cands.to_list()
+# num = random.randint(range(len(cands_list))
 
-  response = client.get_user(username=row['id'])
+try: 
+  response = client.get_user(username=parser.cand_name)
   id = response.data.id
   tweets = client.get_users_tweets(id=id, tweet_fields=['context_annotations','id','created_at','geo',"text",],max_results=100)
 
@@ -39,4 +45,6 @@ for n , row in cands.iterrows():
         }
   df_user_tweets = pd.DataFrame([user_tweets])
 
-  df_user_tweets.to_csv(row['filename'])
+  df_user_tweets.to_csv(parser.out_file)
+except:
+  pass
