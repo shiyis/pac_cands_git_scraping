@@ -14,6 +14,8 @@ Please also check out the references and articles I have gone over that are post
 
 [endnote_references](endnote_references.txt)
 
-And a huge thanks to this [medium article](https://medium.com/analytics-vidhya/scraping-tweets-using-twitter-apis-d497fd97d5f6) that helps guide you through scraping data on tweeter using the tweepy package and their API key.
+And a huge thanks to this [medium article]([https://medium.com/analytics-vidhya/scraping-tweets-using-twitter-apis-d497fd97d5f6](https://dev.to/twitterdev/a-comprehensive-guide-for-using-the-twitter-api-v2-using-tweepy-in-python-15d9) that helps guide you through scraping data on tweeter using the tweepy package and their API key.
+
+Turns out, in order to scrape all the tweets of a particular candidate, I needed elevated access of the Twitter development API and account, so I went ahead and created an account and responded to their questions (including what you are using the data for and whether if it's affiliated with any gov entities etc). The approval speed was rather quick for me. It didn't take long as I responded in email in the morning, and 30 minutes later I got an email updating that my request has been approved. ![Screen Shot 2022-06-23 at 11.02.13 AM](img/Screen Shot 2022-06-23 at 11.02.13 AM.png)
 
 sample out file [aaron_lee.csv](aaron_lee.csv)
