@@ -1,12 +1,12 @@
 #!/bin/bash
-git clone https://github.com/tweepy/tweepy.git
-pwd
-cd tweepy
-pwd
-pip install .
-pip install pandas
-cd ../
-pwd
+# git clone https://github.com/tweepy/tweepy.git
+# pwd
+# cd tweepy
+# pwd
+# pip install .
+# pip install pandas
+# cd ../
+# pwd
 while read p; do
   delimiter=","
   array=();
@@ -20,6 +20,7 @@ while read p; do
   timestamp=$(date -u)
   git commit -m "Latest data: ${timestamp}" || exit 0
   git push -f origin main
-  sleep 20
+  continue
+  sleep 5
 done <./data/outfile.csv 
 
