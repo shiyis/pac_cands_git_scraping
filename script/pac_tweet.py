@@ -1,4 +1,4 @@
-from . import tweepy
+import tweepy
 import pandas as pd
 import time
 import os
