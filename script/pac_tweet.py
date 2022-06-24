@@ -41,7 +41,7 @@ try:
         'Text': tweet.text,
         }
   df_user_tweets = pd.DataFrame([user_tweets])
-  df_user_tweets.head(7)
+  print(df_user_tweets.head(7))
   df_user_tweets.to_csv(parser.out_file)
   time.sleep(10) 
 except:
