@@ -11,8 +11,9 @@ while read p; do
   delimiter=","
   array=();
   IFS=',' read -r -a array <<< "$p"
-  echo ${array[1]}
-  python ./script/pac_tweet.py --out_file data/${array[1]} --cand_name ${array[3]}
-  sleep 5
+  echo ${array[0]}
+  echo ${array[3]}
+  python ./script/pac_tweet.py --out_file data/${array[0]} --cand_name ${array[3]}
+  sleep 20
 done <./data/outfile.csv 
 
