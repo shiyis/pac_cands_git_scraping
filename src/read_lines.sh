@@ -1,12 +1,12 @@
 #!/bin/bash
-# git clone https://github.com/tweepy/tweepy.git
-# pwd
-# cd tweepy
-# pwd
-# pip install .
-# pip install pandas
-# cd ../
-# pwd
+git clone https://github.com/tweepy/tweepy.git
+pwd
+cd tweepy
+pwd
+pip install .
+pip install pandas
+cd ../
+pwd
 
 
 
