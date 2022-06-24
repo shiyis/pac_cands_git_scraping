@@ -36,13 +36,13 @@ try:
 
 
   # Pulling information from tweets iterable object and adding relevant tweet information in our data frame
-  user_tweets = ''
+  user_tweets = []
   for tweet in tweets.data:
-    user_tweets = {'Created at': tweet.created_at,
+    user_tweets.append({'Created at': tweet.created_at,
         'User ID': tweet.id,
         'Text': tweet.text,
-        }
-  df_user_tweets = pd.DataFrame([user_tweets])
+        })
+  df_user_tweets = pd.DataFrame(user_tweets)
   print(df_user_tweets)
   df_user_tweets.to_csv(args.file)
   time.sleep(10) 
