@@ -27,7 +27,7 @@ client = tweepy.Client( bearer_token=bearer_token,
 
 
 
-response = client.get_user(username=parser.name)
+response = client.get_user(username=args.name)
 id = response.data.id
 
 try: 
@@ -44,7 +44,7 @@ try:
         }
   df_user_tweets = pd.DataFrame([user_tweets])
   print(df_user_tweets.head(7))
-  df_user_tweets.to_csv(parser.file)
+  df_user_tweets.to_csv(args.file)
   time.sleep(10) 
 except:
   pass
