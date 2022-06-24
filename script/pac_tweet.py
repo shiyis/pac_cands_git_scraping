@@ -24,10 +24,7 @@ client = tweepy.Client( bearer_token=bearer_token,
                         access_token_secret=access_token_secret, 
                         wait_on_rate_limit=True)
 
-# os.chdir('/Users/runner/work/pac-cands-git-scraping/pac-cands-git-scraping/data/')
-# cands = pd.read_csv('/Users/shiyishen/nlp/proxy_tutorial/link_data/outfile.csv')
-# cands_list = cands.to_list()
-# num = random.randint(range(len(cands_list))
+
 
 try: 
   response = client.get_user(username=parser.cand_name)
@@ -44,8 +41,8 @@ try:
         'Text': tweet.text,
         }
   df_user_tweets = pd.DataFrame([user_tweets])
-
+  df_user_tweets.head(7)
   df_user_tweets.to_csv(parser.out_file)
-  time.sleep(5) 
+  time.sleep(10) 
 except:
   pass
