@@ -46,5 +46,6 @@ try:
   df_user_tweets = pd.DataFrame([user_tweets])
 
   df_user_tweets.to_csv(parser.out_file)
+  time.sleep(5) 
 except:
   pass
