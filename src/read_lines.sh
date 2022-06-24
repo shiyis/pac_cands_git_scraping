@@ -14,6 +14,12 @@ while read p; do
   echo ${array[0]}
   echo ${array[3]}
   python ./script/pac_tweet.py --file ./data/${array[0]} --name ${array[3]}
+  git config user.name "Automated"
+  git config user.email "actions@users.noreply.github.com"
+  git add -A
+  timestamp=$(date -u)
+  git commit -m "Latest data: ${timestamp}" || exit 0
+  git push -f origin main
   sleep 20
 done <./data/outfile.csv 
 
