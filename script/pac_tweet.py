@@ -27,24 +27,26 @@ client = tweepy.Client( bearer_token=bearer_token,
 cands = pd.read_csv('./data/outfile.csv')
 
 for n, row in cands.iterrows():
-  response = client.get_user(username=row['id'])
-  id = response.data.id
+  try: 
+    response = client.get_user(username=row['id'])
+    id = response.data.id
 
 
-  tweets = client.get_users_tweets(id=id, tweet_fields=['context_annotations','id','created_at','geo',"text",],max_results=100)
+    tweets = client.get_users_tweets(id=id, tweet_fields=['context_annotations','id','created_at','geo',"text",],max_results=100)
 
 
 
-  # Pulling information from tweets iterable object and adding relevant tweet information in our data frame
-  user_tweets = []
-  for tweet in tweets.data:
-    user_tweets.append({'Created at': tweet.created_at,
-        'User ID': tweet.id,
-        'Text': tweet.text,
-        })
-  df_user_tweets = pd.DataFrame(user_tweets)
-  print(df_user_tweets)
-  df_user_tweets.to_csv("./data/" + row['filename'])
-  time.sleep(20) 
-
+    # Pulling information from tweets iterable object and adding relevant tweet information in our data frame
+    user_tweets = []
+    for tweet in tweets.data:
+      user_tweets.append({'Created at': tweet.created_at,
+          'User ID': tweet.id,
+          'Text': tweet.text,
+          })
+    df_user_tweets = pd.DataFrame(user_tweets)
+    print(df_user_tweets)
+    df_user_tweets.to_csv("./data/" + row['filename'])
+    time.sleep(20) 
+   except:
+    pass
 
