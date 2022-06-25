@@ -1,5 +1,3 @@
-import os
-os.chdir('/Users/runner/work/pac-cands-git-scraping/pac-cands-git-scraping/')
 import tweepy
 import pandas as pd
 import time
@@ -46,7 +44,7 @@ for n, row in cands.iterrows():
         })
   df_user_tweets = pd.DataFrame(user_tweets)
   print(df_user_tweets)
-  df_user_tweets.to_csv(row['filename'])
+  df_user_tweets.to_csv("./data/" + row['filename'])
   time.sleep(20) 
 
 
