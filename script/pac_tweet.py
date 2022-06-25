@@ -4,10 +4,10 @@ import time
 import os
 import random 
 import argparse
-parser = argparse.ArgumentParser()
-parser.add_argument('--name', help='cand name')
-parser.add_argument('--file', help='output file')
-args = parser.parse_args()
+# parser = argparse.ArgumentParser()
+# parser.add_argument('--name', help='cand name')
+# parser.add_argument('--file', help='output file')
+# args = parser.parse_args()
 
 consumer_key = "8mpjTaSxQRTKDqA49l4EUo5Hi"
 consumer_secret = "MjqTyxSBDNSw6glSSxIZFlc8ye1eDX39pt8NVSqwJpaq82AdRw"
@@ -25,12 +25,13 @@ client = tweepy.Client( bearer_token=bearer_token,
                         wait_on_rate_limit=True)
 
 
+cands = pd.read_csv('./data/outfile.csv')
+
+for i, row in cands.iterrows():
+  response = client.get_user(row['id'])
+  id = response.data.id
 
 
-response = client.get_user(username=args.name)
-id = response.data.id
-
-try: 
   tweets = client.get_users_tweets(id=id, tweet_fields=['context_annotations','id','created_at','geo',"text",],max_results=100)
 
 
@@ -44,8 +45,7 @@ try:
         })
   df_user_tweets = pd.DataFrame(user_tweets)
   print(df_user_tweets)
-  df_user_tweets.to_csv(args.file)
+  df_user_tweets.to_csv(row['filename'])
   time.sleep(20) 
-except:
-  pass
+
 
