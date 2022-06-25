@@ -27,7 +27,7 @@ client = tweepy.Client( bearer_token=bearer_token,
 
 cands = pd.read_csv('./data/outfile.csv')
 
-for i, row in cands.iterrows():
+for n, row in cands.iterrows():
   response = client.get_user(row['id'])
   id = response.data.id
 
