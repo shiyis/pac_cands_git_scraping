@@ -4,6 +4,7 @@
 # cd tweepy
 # pwd
 # pip install .
+pip install tweepy==1.7.1
 pip install pandas
 # cd ../
 # pwd
