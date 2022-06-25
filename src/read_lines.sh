@@ -1,12 +1,12 @@
 #!/bin/bash
-git clone https://github.com/tweepy/tweepy.git
-pwd
-cd tweepy
-pwd
-pip install .
+# git clone https://github.com/tweepy/tweepy.git
+# pwd
+# cd tweepy
+# pwd
+# pip install .
 pip install pandas
-cd ../
-pwd
+# cd ../
+# pwd
 python ./script/pac_tweet.py
 
 
