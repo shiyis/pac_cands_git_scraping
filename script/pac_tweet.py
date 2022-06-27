@@ -27,7 +27,7 @@ client = tweepy.Client(
 )
 
 
-cands = pd.read_csv("./input/outfile_2.csv")
+cands = pd.read_csv("./input/outfile_3.csv")
 
 for n, row in cands.iterrows():
     try:
