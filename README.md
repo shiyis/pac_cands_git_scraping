@@ -2,7 +2,7 @@
 This project scrapes all the PAC candidates in the FEC database their **personal/campaign Twitter** timeline. 
 
 
-By running a **github action** workflow defined in [cands-tw-feeds.yml](.github/workflows/cands-tw-feeds.yml) workflow, we will be able to get the data of the candidate
+By running a **github action** workflow defined in [cands-tw-feeds.yml](.github/workflows/cands-tw-feeds.yml) workflow, we will be able to get the data of the candidates.
 #### Creating API key and secret
 Oginally the project intended to scrape both facebook and twitter data. As of Jun 21st 2022, with a widespread ban of the scrapers and bots of facebook(due to security reasons), an upgrade in facebook's [Data Scraping Protocol](https://developers.facebook.com/docs/development/terms-and-policies/automated-data-collection/) and the easier usibility of twitter's [updated authentification API Auth V2](https://developer.twitter.com/en/docs/authentication/oauth-2-0), the scraping project has shifted its focus primarily in scraping Twitter data instead by using **tweepy (the Twitter package for Python) and an API key**. 
 
