@@ -9,11 +9,11 @@ import argparse
 # parser.add_argument('--file', help='output file')
 # args = parser.parse_args()
 
-consumer_key = "8mpjTaSxQRTKDqA49l4EUo5Hi"
-consumer_secret = "MjqTyxSBDNSw6glSSxIZFlc8ye1eDX39pt8NVSqwJpaq82AdRw"
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAGwReAEAAAAAMfSyoixFQyWmofzkvQzS8dBHK%2Fs%3D6hXcF5Nhdn35zIs1bsGwe7DErFcFhl6GK9RdpHXjK1Ry2YuWxt"
-access_token = "1460714174754037761-ChtNeYlhVtwbwUhNze32Zd1VkqQsR0"
-access_token_secret = "RR1ujY0vEuBJVqBJ8tFh5uNLqrmqZAwuxs9zsjdJ3E3BW"
+consumer_key = "YOUR KEY"
+consumer_secret = "YOUR KEY"
+bearer_token = "YOUR KEY"
+access_token = "YOUR KEY"
+access_token_secret = "YOUR KEY"
 
 # Replace with your own search query
 
