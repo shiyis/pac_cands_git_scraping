@@ -24,3 +24,8 @@ Please also check out the **references and articles** I have gone over that are 
 [twitter_data_pulling.ipynb](./twitter_data_pulling.ipynb) This jupyter notebook consists of the sample code that pulls data from a candidate's twitter account 
 
 And here's the sample out file [christina_hagan.csv](./out.csv)
+
+
+#### Data Analysis with 2022 PAC candidates campaign twitter Tweets
+
+Please check out this foldre for a complete data analysis and NLP project with the scraped data. 
