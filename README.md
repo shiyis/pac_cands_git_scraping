@@ -28,4 +28,4 @@ And here's the sample out file [christina_hagan.csv](./out.csv)
 
 #### Data Analysis with 2022 PAC candidates campaign twitter Tweets
 
-Please check out this foldre for a complete data analysis and NLP project with the scraped data. 
+Please check out this [folder](https://github.com/shiyis/data_analysis_python/tree/python/pac_issues_analysis) for a complete data analysis and NLP project with the scraped data. 
