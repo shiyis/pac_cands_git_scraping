@@ -14,12 +14,6 @@ Turns out, in order to scrape all the tweets of a particular candidate, I needed
 
 <img src="https://github.com/shiyis/pac-cands-git-scraping/blob/main/img/tw-ea-email.png" width="500" height="400">
 
-#### Literature and references
-Please also check out the **references and articles** I have gone over that are postentially pertaining to this research project. 
-
-[endnote_references](endnote_references.txt)
-
-
 #### Pulling data from Twitter
 [twitter_data_pulling.ipynb](./twitter_data_pulling.ipynb) This jupyter notebook consists of the sample code that pulls data from a candidate's twitter account 
 
@@ -29,3 +23,11 @@ And here's the sample out file [christina_hagan.csv](./out.csv)
 #### Data Analysis with 2022 PAC candidates campaign Twitter tweets
 
 Please check out this [folder](https://github.com/shiyis/data_analysis_python/tree/python/pac_issues_analysis) for a complete data analysis and NLP project with the scraped data. 
+
+
+#### Literature and references
+Please also check out the **references and articles** I have gone over that are postentially pertaining to this research project. 
+
+[endnote_references](endnote_references.txt)
+
+
