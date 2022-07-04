@@ -1,5 +1,5 @@
 # pac-issue-git-scraping
-This project scrapes all the PAC candidates in the FEC database their **personal/campaign Twitter** timeline. 
+This project scrapes all of the PAC candidates in the FEC database their **personal/campaign Twitter** timeline. 
 
 
 By running a **github action** workflow defined in [cands-tw-feeds.yml](.github/workflows/cands-tw-feeds.yml) workflow, we will be able to get the data of the candidates.
