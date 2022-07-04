@@ -31,3 +31,10 @@ Please also check out the **references and articles** I have gone over that are 
 [endnote_references](endnote_references.txt)
 
 
+
+#### Data sets and corpus pertaining to this research project
+
+https://www.cs.cornell.edu/home/llee/data/convote.html
+this page describes a collection of data that captures the congressional speech data as individual documents for experiments with sentiment analysis. This corpus might be helpful in assisting projects that utitlize political content for sentiment analysis.
+
+
