@@ -37,4 +37,7 @@ Please also check out the **references and articles** I have gone over that are 
 https://www.cs.cornell.edu/home/llee/data/convote.html
 this page describes a collection of data that captures the congressional speech data as individual documents for experiments with sentiment analysis. This corpus might be helpful in assisting projects that utitlize political content for sentiment analysis.
 
+https://people.cs.umass.edu/~miyyer/ibc/index.html 
+this page describes a collage of Ideological Book Corpus that consists of 4000 sentences annotated for political ideologies at a substantial level described in the [paper](https://people.cs.umass.edu/~miyyer/pubs/2014_RNN_framing.pdf). This may help with political sentiment analysis and ideological clustering.
+
 
