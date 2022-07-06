@@ -40,4 +40,5 @@ this page describes a collection of data that captures the congressional speech 
 https://people.cs.umass.edu/~miyyer/ibc/index.html 
 this page describes a collage of Ideological Book Corpus that consists of 4000 sentences annotated for political ideologies at a sub-sentential level described in the [paper](https://people.cs.umass.edu/~miyyer/pubs/2014_RNN_framing.pdf). This may help with political sentiment analysis and ideological clustering.
 
-
+https://www.congress.gov/roll-call-votes
+this page has the aggregated data for past political roll call voting floor debates; this might be a good metric in terms of determining why certain representatives vote for certain bills over others. 
